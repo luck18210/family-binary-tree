@@ -4,9 +4,6 @@ family-binary-tree is a JavaScript library for creating and manipulating hierarc
 
 ![Imgur](https://i.imgur.com/SRJiZk2.png)
 
-# Live Demo
-
-Check out the live demo here: https://soemxui195.github.io/family-binary-tree/
 # Installation
 
 The easiest way to use Family Binary Tree is to install it from NPM and include it in your own React build process.
