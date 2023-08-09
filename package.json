@@ -1,0 +1,87 @@
+{
+  "name": "family-binary-tree",
+  "version": "1.0.4",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "peerDependencies": {
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2"
+  },
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "bootstrap": "^4.4.1",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "node-sass": "^4.13.1",
+    "react-icons": "^3.9.0",
+    "react-scripts": "3.4.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "build": "rm -rf dist && NODE_ENV=production babel src/lib --out-dir dist --copy-files --ignore __tests__,spec.js,test.js,__snapshots__",
+    "build-example": "react-scripts build",
+    "pub": "npm run build && npm publish",
+    "predeploy": "npm run build-example",
+    "deploy": "gh-pages -d build"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.1.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "gh-pages": "^2.2.0",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-scripts": "1.1.4",
+    "react-test-renderer": "^16.3.2",
+    "webpack-cli": "^3.3.11"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/soemxui195/family-binary-tree.git"
+  },
+  "keywords": [
+    "tree",
+    "family-tree",
+    "treant",
+    "binary-tree",
+    "react",
+    "reactjs",
+    "tree-reactjs",
+    "reactjs-tree",
+    "react-tree",
+    "tree-react",
+    "tree-node",
+    "supper-tree",
+    "tree-family",
+    "component-tree",
+    "level-tree",
+    "tree-level"
+  ],
+  "author": "Tùng Vũ",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/soemxui195/family-binary-tree/issues"
+  },
+  "homepage": "https://soemxui195.github.io/family-binary-tree",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
